@@ -1,0 +1,142 @@
+/* Module.scss */
+
+nav[role="navigation"] ul {
+    background-color: $color;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0 8px 4px 8px;
+    @media screen and (min-width: 1024px) {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+nav[role="navigation"] ul li {
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0;
+}
+
+nav[role="navigation"] a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken(#fff,30%);
+        transition: color 300ms linear;
+    }
+}
+
+header[role="banner"] svg {
+    fill: $color;
+    @media screen and (min-width: 1024px) {
+        margin: 0;   
+    }
+}
+
+main[role="main"] {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.place-mark {
+    fill: $logo-color;
+}
+
+.bonjour h1 svg, .hoehns h1 svg, 
+.piedigrotta h1 svg, .woodlea h1 svg {
+    height: em(16px);
+    fill: $color;
+    margin-right: em(6px);
+}
+
+.bonjour h1, .hoehns h1, .piedigrotta h1, .woodlea h1,
+.bonjour h2, .hoehns h2, .piedigrotta h2, .woodlea h2 {
+    font-size: em(50px);
+}
+
+.bonjour h1 a, .hoehns h1 a, .piedigrotta h1 a, .woodlea h1 a,
+.bonjour h2 a, .hoehns h2 a, .piedigrotta h2 a, .woodlea h2 a {
+    color: $logo-color;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken($logo-color,8%);
+        transition: color 300ms linear;
+    }
+}
+
+.Bonjour-location, .Hoehns-location, .Piedigrotta-location, .Woodlea-location {
+    margin-bottom: em(100px);
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+//.cafe-location:last-of-type, .food-location:last-of-type, 
+//.attraction-location:last-of-type {
+//    margin-bottom: 0;
+//}
+
+.street-address:before {
+    content: "a. ";
+    @include headline-font;
+}
+
+abbr[title] {
+    border-bottom: none;
+}
+
+.tel {
+    display: block;
+    &:before {
+        content: "p. ";
+        @include headline-font;
+    }
+}
+    
+footer[role="contentinfo"] {
+    background-color: $color;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+footer[role="contentinfo"] h2 {
+    margin: 0;
+}
+
+footer[role="contentinfo"] ul + h2 {
+    margin-top: em(22px);
+}
+
+footer[role="contentinfo"] ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer[role="contentinfo"] ul li {
+    display: inline-block;
+    margin: 0 4px 0 0;
+    padding: 0;
+}
+
+footer[role="contentinfo"] a {
+    color: #fff;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken(#fff,30%);
+        transition: color 300ms linear;  
+    }
+}
+
+.loading-icon {
+    max-width: 200px;
+    width: 100%;
+}
+
+p[data-lazy-load] {
+    text-align: center;
+}
+    
+    

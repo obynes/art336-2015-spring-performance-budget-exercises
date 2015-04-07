@@ -1,0 +1,466 @@
+/* buttons */
+.diy-button {
+    background-color: transparent;
+    border: medium none;
+    cursor: pointer;
+    max-width: 200px;
+    outline: medium none;
+    padding: 0 5px 0 0 !important;
+    text-decoration: none !important;
+    vertical-align: bottom;
+}
+
+.diy-button .diy-innerbutton {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: medium none;
+    display: inline-block;
+    line-height: 0;
+    padding: 0;
+}
+
+.diy-button .diy-innerbutton span {
+    background-image:
+        url("https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/btn_primary_action.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-family: Arial, sans;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 10px 0 5px;
+    position: relative;
+    right: -5px;
+    top: 0;
+    white-space: nowrap;
+}
+
+.diy-button-primary {
+    height: 25px;
+}
+
+.diy-button-primary .diy-innerbutton {
+    background-image:
+        url("https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/btn_primary_action.png");
+}
+
+.diy-button-primary .diy-innerbutton span {
+    background-image:
+        url("https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/btn_primary_action.png");
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.diy-button-primary:hover .diy-innerbutton span {
+    background-position: right -25px;
+}
+
+.diy-button-primary:hover .diy-innerbutton {
+    background-position: left -25px;
+}
+
+.diy-button-primary:active .diy-innerbutton span {
+    background-position: right -50px;
+}
+
+.diy-button-primary:active .diy-innerbutton {
+    background-position: left -50px;
+}
+
+.diy-button-secondary {
+    height: 20px;
+}
+
+.diy-button-secondary .diy-innerbutton {
+    background-image:
+        url("https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/btn_secondary_action.png");
+}
+
+.diy-button-secondary .diy-innerbutton span {
+    background-image:
+        url("https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/btn_secondary_action.png");
+    color: #434343;
+    line-height: 20px;
+}
+
+.diy-button-secondary:hover .diy-innerbutton span {
+    background-position: right -20px;
+}
+
+.diy-button-secondary:hover .diy-innerbutton {
+    background-position: left -20px;
+}
+
+.diy-button-secondary:active .diy-innerbutton span {
+    background-position: right -40px;
+}
+
+.diy-button-secondary:active .diy-innerbutton {
+    background-position: left -40px;
+}
+
+.diy-button-secondary[disabled="disabled"]:hover .diy-innerbutton span,
+.diy-button-secondary.gfxdisabled .diy-innerbutton span {
+    background-position: right 0 !important;
+    color: #AFAFAF !important;
+}
+
+.diy-button-secondary[disabled="disabled"]:hover .diy-innerbutton,
+.diy-button-secondary.gfxdisabled:hover .diy-innerbutton {
+    background-position: left 0 !important;
+    color: #AFAFAF !important;
+}
+
+.diy-button-secondary[disabled="disabled"]:active .diy-innerbutton span,
+.diy-button-secondary.gfxdisabled:active .diy-innerbutton span {
+    background-position: right 0 !important;
+    color: #AFAFAF !important;
+}
+
+.diy-button-secondary[disabled="disabled"]:active .diy-innerbutton,
+.diy-button-secondary.gfxdisabled:active .diy-innerbutton {
+    background-position: left 0 !important;
+    color: #AFAFAF !important;
+}
+
+.diy-button-secondary[disabled],
+.diy-button-secondary[disabled] span,
+.diy-button-secondary[disabled]:hover span {
+    background: none repeat scroll 0 0 #EEEEEE !important;
+    color: #AFAFAF !important;
+    line-height: 16px !important;
+}
+
+.diy-button-secondary[disabled] {
+    border: 1px solid #DDDDDD !important;
+}
+
+.diy-footer-buttons {
+    height: 30px;
+    position: relative;
+}
+
+.diy-footer-buttons .diy-button-secondary {
+    bottom: 3px;
+    left: 0;
+    position: absolute;
+}
+
+.diy-footer-buttons .diy-button-primary {
+    bottom: 3px;
+    position: absolute;
+    right: 0;
+}
+
+button.diy-button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+
+.diysdk-form-error {
+    position: absolute;
+    z-index: 120;
+}
+
+.webcomponent p {
+    margin: 1em 0;
+}
+
+.webcomponent a.diy-button.diy-button-secondary.ccclose,
+.webcomponent a.diy-button.diy-button-secondary.ccclose:hover,
+.webcomponent .diy-button.diy-button-primary.save {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 5px 0 0 !important;
+    text-decoration: none !important;
+}
+
+.webcomponent a.diy-button.diy-button-secondary.ccclose {
+    height: 20px !important;
+}
+
+/* ui-component: loadingindicator */
+
+.webcomponent div.diy-ui-loadingindicator-container {
+    float: left;
+    left: 50%;
+    top: 50%;
+    position: relative;
+}
+
+.webcomponent div.diy-ui-loadingindicator {
+    /*width: 20px;*/
+    position: relative;
+    float: left;
+    /*display: none;*/
+    height: 20px;
+    overflow: hidden;
+}
+
+.webcomponent div.diy-ui-loadingindicator-border {
+    border-top: 1px solid #E0DFE3;
+    border-left: 1px solid #E0DFE3;
+    border-right: 1px solid #B5B5B5;
+    border-bottom: 1px solid #B5B5B5;
+    background: #FFFFFF;
+}
+
+.webcomponent div.diy-ui-loadingindicator-label {
+    position: relative;
+    min-height: 20px;
+    padding: 0 0 0 20px;
+    margin-right: 2px;
+    line-height: 20px;
+    white-space: nowrap;
+    background: #FFFFFF url('https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/siteadmin-loading.gif') 2px center no-repeat;
+}
+
+/* ui-component: progressbar */
+
+.webcomponent div.diy-ui-progressbar {
+    width: 200px;
+    height: 18px;
+    float: left;
+    border-top: 1px solid #E0DFE3;
+    border-left: 1px solid #E0DFE3;
+    border-right: 1px solid #B5B5B5;
+    border-bottom: 1px solid #B5B5B5;
+}
+
+.webcomponent div.diy-ui-progressbar-cancel {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.webcomponent div.diy-ui-progressbar-label {
+    position: relative;
+    top: 50%;
+    margin-top: -10px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* ui-component: accesibility */
+
+.webcomponent div.diy-ui-disabled {
+    display: none;
+    position: absolute;
+    z-index: 2000;
+    background-color: #FFFFFF;
+}
+
+/* ui-component: list \w graphics */
+
+.webcomponent .diy-ui-sellist {
+    list-style-type: none;
+}
+
+.webcomponent .diy-ui-sellist-item {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.webcomponent .diy-ui-sellist-item:hover {
+    background-color: #CCCCCC;
+}
+
+.webcomponent .ui-selected .diy-ui-sellist-item {
+    background-color: #2A4799;
+}
+
+.webcomponent .ui-selected .diy-ui-sellist-item * {
+    color: #FFF;
+}
+
+.webcomponent .diy-ui-sellist-item-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #00FF00;
+    margin-right: 10px;
+}
+
+.webcomponent .diy-ui-sellist-item-img.landscape {
+     width: 60px;
+}
+
+.webcomponent .diy-ui-sellist-item-content {
+    float: left;
+}
+
+/* copied from form.css */
+.webcomponent .error,
+.webcomponent input[type="text"].error,
+.webcomponent textarea.error
+{
+  	background-color:#FAEFEF;
+	border:1px solid #c66;
+	border-color:#c66 #FFB2B2 #FFB2B2 #c66;
+    color:#000;
+}
+
+.webcomponent label {
+    padding: 2px 4px 2px 1px;
+}
+
+.webcomponent label.error {
+    padding: 1px 3px 1px 0px;
+}
+
+.webcomponent label.disabled {
+    color: #999;
+}
+
+.webcomponent label input[type="checkbox"],
+.webcomponent label input[type="radio"] {
+    vertical-align: middle;
+    position: relative;
+    top: -2px
+}
+
+.webcomponent label input[type="checkbox"] {
+    top: -1px;
+    background: none;
+    border: 0px;
+}
+
+.webcomponent input[type='text'],
+.webcomponent textarea {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    padding: 2px;
+    font-family: Arial,Helvetica,sans-serif,Ubuntu !important;
+}
+
+.align_left {
+    margin-left:0;
+    margin-right:auto;
+}
+
+.align_center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.align_right {
+    margin-left:auto;
+    margin-right:0;
+}
+
+.webcomponent .input-error {
+    border: 1px solid red;
+}
+
+.webcomponent form,
+.webcomponent form fieldset,
+.webcomponent form fieldset legend,
+.webcomponent form fieldset dl,
+.webcomponent form fieldset dt,
+.webcomponent form fieldset dd
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.webcomponent form fieldset ol,
+.webcomponent form fieldset ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.webcomponent form fieldset li
+{
+    clear: both;
+    margin: 0 0 .75em;
+    padding: 0;
+}
+
+.webcomponent form fieldset label
+{
+    display: block;
+    line-height: 1.6;
+    margin-right: 10px;
+    width: auto;
+}
+
+.webcomponent form fieldset label input
+{
+    background: transparent;
+    width: auto;
+}
+
+.webcomponent form fieldset.radio label
+{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+}
+
+.webcomponent form fieldset.radio ul
+{
+    font-size: 1em;
+    margin: .3em 0 0;
+}
+
+.webcomponent form fieldset.radio label:after
+{
+    content: '';
+}
+
+.webcomponent form fieldset.radio li dd
+{
+    margin-left: 30px;
+    margin-top: .5em;
+}
+
+.webcomponent .delicon
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/close.png');
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.webcomponent .delicon:hover
+{
+    background-image: url('https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/close_activate.png');
+}
+
+.webcomponent input[type="password"][disabled],
+.webcomponent input[type="text"][disabled],
+.webcomponent input[role="textbox"][disabled],
+.webcomponent textarea[disabled] {
+    background-image: url(/s/diy/jquery/ui/themes/diye/images/1and1-disabled-pattern.png);
+    background-repeat: repeat;
+    border-color: #d5d5d5;
+    color: #d0d0d0;
+    background-color: #fff;
+}
+
+.diysdk_common_webOverlay {
+    z-index: 9;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    display: block;
+    background-image: url('https://cdn.initial-website.com/proxy/apps/ui11gu/s/diy/basic/public/images/overlay-bg.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

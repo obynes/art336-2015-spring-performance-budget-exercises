@@ -1,0 +1,57 @@
+/* Layout.scss */
+
+nav[role="navigation"] {
+    //max-width: 600px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    width: 100%;
+}
+
+//header[role="banner"] {
+//    margin: 100px 0 140px 0;
+//}
+
+header[role="banner"], main[role="main"] {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        max-width: 1024px;
+        width: 100%;
+    }
+    header[role="banner"] svg {
+        fill: pink;
+    }
+    header[role="banner"], main[role="main"] {
+        max-width: 1024px;   
+    }
+    nav[role="navigation"] {
+        position: static;
+        width: 100%;
+    }
+    header[role="banner"] {
+        box-sizing: border-box;
+        float: left;
+        padding-right: 40px;
+        width: 40%;  
+    }
+    main[role="main"] {
+        float: right;
+        width: 60%;  
+    }
+    footer[role="contentinfo"] {
+        float: left;   
+    }
+}
+
+.bonjour, .hoehns {
+    margin-bottom: em(100px);
+}

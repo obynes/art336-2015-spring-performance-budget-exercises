@@ -1,0 +1,66 @@
+/* Web-content */
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_right,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_right p,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_right h2
+{  
+	text-align: right;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_center,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_center p,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_center h2
+{  
+    text-align: center;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_left,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_left p,
+.diysdk_contentApps_businessHours.web_view.webcomponent .align_left h2
+{  
+    text-align: left;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .title { display: inline-block; }
+.diysdk_contentApps_businessHours.web_view.webcomponent .title h2
+{
+    display: inline;
+    word-wrap: break-word;
+    /*text-align: justify;*/
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .businessHours        { clear: both; padding-bottom:1.2em; }
+.diysdk_contentApps_businessHours.web_view.webcomponent .clear                { clear: both; }
+.diysdk_contentApps_businessHours.web_view.webcomponent .businessHoursTable
+{
+    display: inline-block;
+    margin: 0.5em 0 0 0;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .time
+{
+    vertical-align: top;
+    float:left;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .small .time
+{
+    float:none;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .days
+{
+    vertical-align: top;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .large .days
+{
+    padding-right: 10px;
+    float: left;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .small .days
+{
+    padding-right: 0px;
+    width: auto !important;
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .large .days span p { text-align: right;}
+
+.diysdk_contentApps_businessHours.web_view.webcomponent .marginApplied {margin: 0 !important}
+.diysdk_contentApps_businessHours.web_view.webcomponent .callAction { display: inline; }
+.diysdk_contentApps_businessHours.web_view.webcomponent .callAction p {
+	margin:0px;padding:0px;
+	word-wrap: break-word;
+	/*text-align: justify;*/ 
+}
+.diysdk_contentApps_businessHours.web_view.webcomponent .fleft { float:left;}

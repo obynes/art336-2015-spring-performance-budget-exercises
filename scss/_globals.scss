@@ -1,0 +1,48 @@
+/* Globals.scss */
+
+// @import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,900);
+
+$color: #262626;
+$background-color: #fff;
+$base-font-size: 22px;
+$logo-color: #6e6e6e;
+$line-height: 1.45;
+
+@function em($px, $base: $base-font-size) {
+    @return($px / $base) * 1em;
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('../webfonts/Titillium/Titillium-Light-webfont.eot');
+    src: url('../webfonts/Titillium/Titillium-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/Titillium/Titillium-Light-webfont.woff2') format('woff2'),
+         url('../webfonts/Titillium/Titillium-Light-webfont.woff') format('woff'),
+         url('../webfonts/Titillium/Titillium-Light-webfont.ttf') format('truetype'),
+         url('../webfonts/Titillium/Titillium-Light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin body-font-light {
+    font-family: 'titilliumlight', 'helvetica', 'verdana', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin headline-font {
+    font-family: 'bebasregular', 'helvetica', 'verdana', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}

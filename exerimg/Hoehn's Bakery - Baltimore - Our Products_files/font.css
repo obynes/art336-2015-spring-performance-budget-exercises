@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body .diyw {}
+
+html body .diyw, html .diyw p, html .diyw table, html .diyw td
+{
+	font:normal 13px/140% Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+
+html .diyw h1
+{
+	font:bold 20px/140% Arial, Helvetica, sans-serif;
+	color:#000000;
+	
+}
+
+html .diyw h2
+{
+	font:bold 16px/140% Arial, Helvetica, sans-serif;
+	color:#000000;
+	
+}
+
+/* Blog */
+
+.diyw a.trackbackUrl, 
+.diyw a.trackbackUrl:link,
+.diyw a.trackbackUrl:visited,
+.diyw a.trackbackUrl:hover,
+.diyw a.trackbackUrl:active
+{
+	background:#EEEEEE none repeat scroll 0% 0%;
+	border:1px solid black;
+	color:#333333;
+	padding:2px;
+	text-decoration:none;
+}
+
+.diyw a:link,
+.diyw a:visited
+{
+	text-decoration: underline; /* fix */
+	color:#0231f9; 
+}
+
+.diyw a:active, 
+.diyw a:hover
+{
+	text-decoration:none; /* fix */
+	color: #0231f9;
+}
+
+html .diyw div.hr
+{
+	border-bottom-style:solid;
+	border-bottom-width:1px; /* fix */
+	border-color: #000000;
+	height: 1px;
+}/*  alternative */
+
+.diyw .altcolor,
+.diyw .altcolor p, .diyw .diywebCustomColor p { color:#000000;}
+
+.diyw .altcolor h1, .diyw .diywebCustomColor h1 {color:#000000; }
+.diyw .altcolor h2, .diyw .diywebCustomColor h2 {color:#000000; }
+
+.diyw .altcolor a:link, .diyw .diywebCustomColor a:link,
+.diyw .altcolor a:visited, .diyw .diywebCustomColor a:visited { color:#0000ff; }
+
+.diyw .altcolor a:active, .diyw .diywebCustomColor a:active,  
+.diyw .altcolor a:hover, .diyw .diywebCustomColor a:hover { color:#0000ff; }
+
+.diyw .altcolor div.hr, .diyw .diywebCustomColor div.hr {border-color: #000000;}

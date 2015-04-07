@@ -1,0 +1,301 @@
+
+body 
+{
+	margin: 0;
+	padding: 0;
+	background: #f3f3f3;
+}
+
+body .diyw 
+{
+	text-wrap: normal;
+	word-wrap: break-word;
+}
+
+
+
+.diyw .altcolor {
+	background-color: #a1b7cc;
+}
+
+.diyw h1, .diyw h2, .diyw h3 {
+	text-wrap: normal;
+	word-wrap: break-word;
+}
+
+
+
+body .diyw
+{
+	font-size: 12px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.diyw p,.diyw td {
+	font-size: 12px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.diyw h1, .diyw h2, .diyw h3 {
+}
+
+.diyw p {
+}
+
+.diyw a,
+.diyw a:link,
+.diyw a:visited {
+	color: #b2e231;
+	text-decoration: underline;
+}
+
+.diyw a:hover,
+.diyw a:focus {
+	text-decoration: none;
+}
+
+.diyw div.hr {
+	border-color: #666;
+}
+
+
+.diyw img, .diyw a img {
+	border: 0;
+}
+
+.diyw img {
+	display: block;
+}
+
+
+.diyw .c {
+	clear: both;
+}
+
+
+.diyw #container {
+	margin: 0 auto;
+	width: 960px;
+	background: url(http://www.hoehnsbakery.com/s/img/bg.png) top center repeat-y;
+	padding: 0 7px;
+}
+
+
+.diyw #header {
+	padding: 10px;
+}
+
+
+.diyw #header #emotion-header-img {
+}
+
+
+.diyw #header #emotion-header-title {
+}
+
+
+.diyw #navigation {
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav-repeat.png) 0px 0px repeat #a1b7cc;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.diyw #menu {
+}
+
+.diyw #menu .ddm_level_1 {
+	width: 100%;
+}
+
+.diyw #menu .ddm_level_1 > li{
+}
+
+.diyw #menu .ddm_level_1 > li > a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	height: 30px;
+	padding: 10px 20px 0;
+	text-shadow: 0px 1px 1px #000;
+}
+
+.diyw #menu .ddm_level_1 > li:hover > a,
+.diyw #menu .ddm_level_1 > li > a:hover {
+	cursor: pointer;
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) 0px 0px repeat-x;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_selected > a {
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) 0px 0px repeat-x;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_has_children > a{
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) right -40px no-repeat;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_has_children > a:hover,
+.diyw #menu .ddm_level_1 > li.ddm_has_children:hover > a {
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) right -80px no-repeat;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_has_children.ddm_selected > a {
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) right -80px no-repeat;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_parent > a{
+	background: url(http://www.hoehnsbakery.com/s/img/bg-nav.png) right -80px no-repeat;
+}
+
+.diyw #menu .ddm_level_2 {
+	width: 900px;
+	left: 0px;
+	background-color: #a1b7cc;
+	margin:5px 10px;
+	padding: 25px 20px;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.diyw #menu .ddm_level_2 > li {
+	width: 143px;
+	
+	margin-bottom: 20px;
+	padding: 0 18px 20px 18px;
+	background: url(http://www.hoehnsbakery.com/s/img/bg_ddm_level2.png) bottom right no-repeat;
+	
+}
+
+.diyw #menu .ddm_level_2 > li:first-child {
+	border-left: none;
+}
+
+.diyw #menu .ddm_level_2 > li > a {
+	padding-left: 2px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+}
+
+.diyw #menu .ddm_level_2 > li > a:hover,
+.diyw #menu .ddm_level_2 > li.ddm_parent >a {
+	background: #a1b7cc url(http://www.hoehnsbakery.com/s/img/bg-nav-lvl2-active.png) repeat top left;
+}
+
+.diyw #menu .ddm_level_2 > li.ddm_row_1{
+	
+}
+
+.diyw #menu .ddm_level_3 {
+	padding-top: 8px;
+}
+
+.diyw #menu .ddm_level_3 > li {
+}
+
+.diyw #menu .ddm_level_3 > li > a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+	display: block;
+	padding-left: 2px;
+	margin-top: 1px;
+}
+
+.diyw #menu .ddm_level_3 > li > a:hover {
+	background: #a1b7cc url(http://www.hoehnsbakery.com/s/img/bg-nav-lvl2-active.png) repeat top left;
+}
+
+.diyw #menu .ddm_level_1 > li.ddm_selected > a, 
+.diyw #menu .ddm_level_2 > li.ddm_selected > a,
+.diyw #menu .ddm_level_3 > li.ddm_selected > a {
+}
+
+.diyw #menu .ddm_level_3 > li.ddm_selected > a{
+	background: #a1b7cc url(http://www.hoehnsbakery.com/s/img/bg-nav-lvl2-active.png) repeat top left;
+}
+
+.diyw #menu .ddm_level_2 > li.ddm_parent > a {
+	font-weight: bold;
+}
+
+
+.diyw #breadcrumb {
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+}
+
+.diyw .breadcrumb_head{
+}
+
+	
+.diyw .breadcrumb_item a{
+}
+
+	
+.diyw .breadcrumb_separator{
+}
+
+	
+.diyw .breadcrumb_item_selected{
+	font-weight: bold;
+}
+
+.diyw #breadcrumb a,
+.diyw #breadcrumb a:link,
+.diyw #breadcrumb a:visited{
+	color: #666;
+	text-decoration: none;
+	border-bottom: 2px solid #a1b7cc;
+}
+
+
+.diyw #content {
+	padding-bottom: 55px;
+}
+
+.diyw #mainContent {
+	float: right;
+	width: 580px;
+	margin-right: 60px;
+}
+
+.diyw .cc-pagemode-default #mainContent {
+	overflow: hidden;
+}
+
+
+.diyw #subContent {
+	float: left;
+	width: 210px;
+	background: #a1b7cc;
+	padding: 40px 20px;
+	margin-left: 10px;
+}
+
+.diyw .cc-pagemode-default #subContent {
+	overflow: hidden;
+}
+
+
+.diyw #footer {
+	background: #1a1a1a;
+	border-top: 1px solid #dedede;
+	padding: 7px 10px;
+}
+
+.diyw #footer #contentfooter {
+	font-size: 10px;
+	color: #fff;
+}
+
+.diyw #footer a{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #a1b7cc;
+}
